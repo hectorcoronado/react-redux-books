@@ -19,7 +19,8 @@ class BookDetail extends Component {
       // this.props.activeBook is available through mapStateToProps below
       <div>
         <h4>Details for:</h4>
-        <div>{this.props.activeBook.title}</div>
+        <div>Title: {this.props.activeBook.title}</div>
+        <div>Pages: {this.props.activeBook.pages}</div>
       </div>
     );
   }

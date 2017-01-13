@@ -9,9 +9,9 @@ Reducer must be a pure function:
 
 export default function() {
   return [
-    { title: 'The Waves' },
-    { title: 'Ulysses' },
-    { title: 'Moby Dick' },
-    { title: 'JR' }
+    { title: 'The Waves', pages: 324 },
+    { title: 'Ulysses', pages: 736 },
+    { title: 'Moby-Dick', pages: 720 },
+    { title: 'JR', pages: 726 }
   ]
 }
