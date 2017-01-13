@@ -1,4 +1,4 @@
-# redux-practice
+# react-redux-books
 
 Practice app to understand flow of data in a React/Redux app.
 
